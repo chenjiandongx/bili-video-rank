@@ -1,6 +1,6 @@
 # B 站视频各项数据排行榜
 
-> 网站已部署在 [Bili Video Infoo](chenjiandongx.com/bili-video-rank)
+> 网站已部署在 [Bili Video Info](http://chenjiandongx.com/bili-video-rank)
 
 本项目是 [chenjiandongx/bili-spider](https://github.com/chenjiandongx/bili-spider) 的衍生项目，前者负责爬取 B 站数据。
 

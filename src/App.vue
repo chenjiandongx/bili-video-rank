@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <v-header></v-header>
     <el-tabs type="border-card">
       <el-tab-pane label="播放数前 100">
         <bili-info :data="viewData"></bili-info>
@@ -20,17 +21,24 @@
         <bili-info :data="shareData"></bili-info>
       </el-tab-pane>
     </el-tabs>
+    <div class="footer">
+      <p align="center">
+        Copyright &copy; 2018 chenjiandongx
+      </p>
+    </div>
   </div>
 </template>
 
 <script>
 import BiliInfo from './components/BIliInfo';
+import Header from './components/header';
 import axios from 'axios';
 
 export default {
   name: 'App',
   components: {
-    BiliInfo
+    'bili-info': BiliInfo,
+    'v-header': Header
   },
   data() {
     return {
@@ -72,3 +80,10 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+  .footer p {
+    margin-top: 20px;
+    color:#878B91;
+  }
+</style>

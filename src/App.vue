@@ -31,7 +31,7 @@
 
 <script>
 import BiliInfo from './components/BIliInfo';
-import Header from './components/header';
+import Header from './components/Header';
 import axios from 'axios';
 
 export default {

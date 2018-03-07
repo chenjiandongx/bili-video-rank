@@ -1,21 +1,22 @@
-# bili-video-rank
+# B 站视频各项数据排行榜
 
-> A Vue.js project
+> 网站已部署在 [Bili Video Infoo](chenjiandongx.com/bili-video-rank)
 
-## Build Setup
+本项目是 [chenjiandongx/bili-spider](https://github.com/chenjiandongx/bili-spider) 的衍生项目，前者负责爬取 B 站数据。
 
-``` bash
-# install dependencies
+## 如何使用
+
+```
+### 安装依赖项
 npm install
 
-# serve with hot reload at localhost:8080
+#### 启动服务，将会在 8080 端口启动项目
 npm run dev
 
-# build for production with minification
+#### 打包
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+效果图
+
+![image](https://user-images.githubusercontent.com/19553554/37084650-12a5c548-222e-11e8-9c46-0683940b355c.png)

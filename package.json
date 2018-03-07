@@ -1,7 +1,7 @@
 {
   "name": "bili-video-rank",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "B 站视频各项数据排行榜",
   "author": "chenjiandongx <chenjiandongx@qq.com>",
   "private": true,
   "scripts": {

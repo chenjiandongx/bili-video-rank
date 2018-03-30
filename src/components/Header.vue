@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <span id="title">📺 B 站视频各项数据排行榜 📆 更新至 2018-03-05</span>
+    <span id="title">📺 B 站视频各项数据排行榜</span>
     <span id="profile">✨ 由 <a href="https://github.com/chenjiandongx">chenjiandongx</a> 贡献 ✨ <el-button type="text" @click="open">打赏作者</el-button> </span>
   </div>
 </template>
